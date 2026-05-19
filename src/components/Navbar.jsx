@@ -94,7 +94,7 @@ const Navbar = () => {
                                     <span className="bg-[#FF9505] text-black text-[10px] font-bold px-1.5 py-0.5 rounded scale-90">New</span>
                                 </Link>
                             </li>
-                            <li><Link href="/add-pets" className="py-2.5 hover:bg-slate-800 hover:text-white rounded-md transition-colors">Add Pets</Link></li>
+                            <li><Link href="/dashboard" className="py-2.5 hover:bg-slate-800 hover:text-white rounded-md transition-colors">Dashboard</Link></li>
                             <div className="divider my-1 border-slate-700/50 before:bg-slate-700/50 after:bg-slate-700/50"></div>
                             <li><button className="py-2.5 text-rose-400 hover:bg-rose-500/10 rounded-md transition-colors w-full text-left">Logout</button></li>
                         </ul>
