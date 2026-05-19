@@ -8,6 +8,8 @@ const DashboardLayout = ({ children }) => {
             <input id="dashboard-drawer" type="checkbox" className="drawer-toggle" />
 
             <div className="drawer-content flex flex-col min-h-screen bg-[#0b1329]">
+
+                
                 <div className="w-full flex items-center justify-between bg-[#0f172a] border-b border-slate-800 px-4 py-3 lg:hidden">
                     <label htmlFor="dashboard-drawer" className="btn btn-square btn-ghost text-white drawer-button">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current">
